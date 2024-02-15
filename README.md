@@ -19,3 +19,16 @@ Create a new Project -> Insert Projectname and Click "Create" -> Go to APIs and 
 OAuth consent screen -> if not configure set it to External -> Insert your App name and email -> Save and Continue and go forward to get back to dashbord -> back to Credentials -> + Create Credentials -> OAutch client ID -> Application type "Desktop app" -> Create
 
 DOWNLOAD JSON FILE and rename it to "credentials_file.json" then place it to your Folder
+
+Place the Google API-Key in your .env file like this for GOOGLE_API_KEY and SEARCH_API_KEYS:
+´´´
+GOOGLE_API_KEY=RdfkjieAduadkjfeNadfjieDadfjhueuafUadfjkeMasdfe
+SEARCH_API_KEYS=RdfkjieAduadkjfeNadfjieDadfjhueuafUadfjkeMasdfe
+´´´
+
+## Reminder: each search, playlist creation and insert cost Queries where you have a value of 10k each day. If you need more, create a new project and API-Key and place it behind the SEARCH_API_KEYS 
+
+For example:
+´´´
+SEARCH_API_KEYS=RdfkjieAduadkjfeNadfjieDadfjhueuafUadfjkeMasdfe,RdfkjieAduadkjfeNadfjieDadfjhueuafUadfjkeMasdfe
+´´´
