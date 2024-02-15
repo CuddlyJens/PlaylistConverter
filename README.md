@@ -14,5 +14,8 @@ SPOTIPY_REDIRECT_URI=http://localhost:3001
 
 Go to https://console.cloud.google.com/ to get your Google Secrets
 
-Create a new Project -> Insert Projectname and Click "Create" -> Go to APIs and Services -> Select your Project -> Credentials -> + Create Credentials -> API-Key -> Wait a bit and then you get your API Key -> Do the same for OAuth client ID ->
-if not configure set it to External -> Insert your App name and email ->
+Create a new Project -> Insert Projectname and Click "Create" -> Go to APIs and Services -> Select your Project -> Credentials -> + Create Credentials -> API-Key -> Wait a bit and then you get your API Key
+
+OAuth consent screen -> if not configure set it to External -> Insert your App name and email -> Save and Continue and go forward to get back to dashbord -> back to Credentials -> + Create Credentials -> OAutch client ID -> Application type "Desktop app" -> Create
+
+DOWNLOAD JSON FILE and rename it to "credentials_file.json" then place it to your Folder
